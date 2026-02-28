@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "../components/edit-page/Sidebar";
 export default function EditPage() {
     return (
-        <div className="main">
+        <div className="main shifted">
             <h1>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
                 facilis, animi soluta, assumenda corrupti iste praesentium

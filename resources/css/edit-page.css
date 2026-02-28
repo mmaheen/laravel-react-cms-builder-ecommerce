@@ -1,16 +1,23 @@
 .sidebar {
     position: fixed;
     top: 0;
-    right: 0;
+    right: -340px;
     background-color: beige;
     width: 300px;
     height: 100vh;
     padding: 20px;
+    transition: right 1s ease;
 }
 
 .sidebar.open {
-    right: -300px;
+    right: 0;
 }
 
 .main {
+    transition: padding-right 1s ease;
+    padding-right: 0px;
+}
+
+.main.shifted {
+    padding-right: 340px;
 }
