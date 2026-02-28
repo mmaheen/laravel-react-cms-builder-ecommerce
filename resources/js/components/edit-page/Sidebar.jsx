@@ -1,9 +1,13 @@
 import React from "react";
 export default function Sidebar() {
     return (
-        <div>
-            <h1>Test</h1>
-            <p>This is Sidebar page (React inside Blade)</p>
-        </div>
+        <aside className="sidebar open">
+            <ul>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+            </ul>
+        </aside>
     );
 }
