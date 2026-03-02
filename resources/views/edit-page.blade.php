@@ -8,7 +8,7 @@
 
 <body>
 
-    <div id="react-edit-page" data-props='@json(['title' => 'Dashboard Page'])'>
+    <div id="react-edit-page" data-props='@json($props)'>
     </div>
 
 </body>

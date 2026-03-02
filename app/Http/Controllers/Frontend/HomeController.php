@@ -19,6 +19,12 @@ class HomeController extends Controller
     }
     public function edit()
     {
-        return view("edit-page");
+        $title = "Edit Page";
+        $description = "This is the edit page description.";
+        $props = [
+            "title" => $title,
+            "description" => $description
+        ];
+        return view("edit-page", compact("props"));
     }
 }
