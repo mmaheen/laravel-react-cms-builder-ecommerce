@@ -1,7 +1,7 @@
 import React from "react";
-export default function Sidebar() {
+export default function Sidebar({ sidebarOpen }) {
     return (
-        <aside className="sidebar open">
+        <aside className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
             <ul>
                 <li>test</li>
                 <li>test</li>

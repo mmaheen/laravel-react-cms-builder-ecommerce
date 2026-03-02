@@ -20,4 +20,18 @@
 
 .main.shifted {
     padding-right: 340px;
+    /* transition: all 1s ease; */
+}
+
+.sidebar-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    background-color: rgb(211, 226, 230);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
 }
